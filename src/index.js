@@ -1,5 +1,6 @@
 const express = require("express")
 const connect = require("./configs/db")
+
 const postController = require("./controllers/post.controller")
 const userController = require("./controllers/user.controller")
 
@@ -12,10 +13,10 @@ app.use(express.json())
 
 
 
-app.use("/user",userController)
-app.use("/post",postController)
-app.use("/register",regiser)
-app.use("/login",login)
+app.get("/user",userController)
+app.post("/post",postController)
+app.post("/register",regiser)
+app.post("/login",login)
 
 
 
