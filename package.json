@@ -1,0 +1,24 @@
+{
+  "name": "unit4c3evalution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivagurubilli/unit4c3evaluation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivagurubilli/unit4c3evaluation/issues"
+  },
+  "homepage": "https://github.com/sivagurubilli/unit4c3evaluation#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "nodemon": "^2.0.15"
+  }
+}
