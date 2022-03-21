@@ -7,6 +7,7 @@ const userSchema = mongoose.Schema({
     age:{type:Number,required:true,minlength:1,maxlength:150},
     email:{type:String,required:true,unique:true},
     img:{data:buffer,contentType:String},
+    
 },{
     timestamps:true,
     versionKey:false
